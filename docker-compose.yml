@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  edzesapp:
+    build: .
+    container_name: edzes_naplo
+    ports:
+      - "4200:80"
+    restart: unless-stopped
